@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <Cabecalho />
         <div className="container mt-3">
-          <Collapse innerText="criar vaga">
+          <Collapse innerText="Criar vaga">
           <Form/>
           </Collapse>
           <Lista />
