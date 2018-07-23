@@ -1,4 +1,4 @@
-module.exports = [
+var a  = [
   {
       "id": "0512",
       "name": "Desenvolvedor Full Stack JR",
@@ -62,5 +62,26 @@ module.exports = [
       ],
       "isPcd": true,
       "isActive": true
-  }
+  },
+  {
+    "id": "0854",
+    "name": "Estagwwiário de Data Science",
+    "salary": 1200,
+    "area": "Desenvolvimento",
+    "description": "Suas responsabilidades serão voltadas para o desenvolvimento de modelos de previsão, reconhecimento de padrão e análise de dados para tomada de decisão. O estagiário atuará com técnicas de Machine Learning, Big Data, Data Science e Data Analytics.",
+    "skills": [
+        "- Cursando ensino superior em Ciências da Computação, Engenharia da Computação e áreas afins",
+        "- Desenvolvimento com programação Python, Estrutura de Dados e Lógica de Programação",
+        "- Inglês intermediário"
+    ],
+    "differentials": [
+        "- Estatística",
+        "- Processamento de texto",
+        "- Biliotecas Matplotlib, Pandas, Numpy, Tensorflow e Keras"
+    ],
+    "isPcd": true,
+    "isActive": true
+}
 ]
+
+module.exports = a;

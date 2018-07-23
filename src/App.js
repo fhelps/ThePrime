@@ -4,6 +4,7 @@ import './App.css';
 import Cabecalho from './components/navigation/Header/Header';
 import Lista from './components/job/JobList/JobList';
 import Form from './components/job/JobForm/JobForm';
+import Collapse from './components/hoc/Collapse/Collapse';
 
 class App extends Component {
   render() {
@@ -11,7 +12,9 @@ class App extends Component {
       <div className="App">
         <Cabecalho />
         <div className="container mt-3">
+          <Collapse innerText="criar vaga">
           <Form/>
+          </Collapse>
           <Lista />
         </div>
       </div>
